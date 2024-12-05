@@ -1,0 +1,58 @@
+/* Style global pour le corps */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Henny Penny', sans-serif;
+    color: #fff;
+}
+
+/* Conteneur principal */
+div {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Texte principal */
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Style commun aux boutons */
+input[type="button"] {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+/* Style spécifique pour le bouton "NON" */
+input#no {
+    background: #ff6b6b;
+}
+
+/* Effet au survol des boutons */
+input[type="button"]:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Effet actif (lors du clic) */
+input[type="button"]:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
